@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sudo service avahi-daemon start
+sudo service netatalk start
+sudo systemctl enable avahi-daemon
+sudo systemctl enable netatalk
