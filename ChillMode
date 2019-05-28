@@ -1,0 +1,3 @@
+#!/bin/bash
+AlexaMain -d Radu\'s\ Echo\ Dot -e automation:'chill mode'
+
