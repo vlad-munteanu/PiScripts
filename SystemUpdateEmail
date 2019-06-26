@@ -4,6 +4,7 @@ SUBJECT="System Update $(date)"
 # To
 TOEMAIL="pialerts37@gmail.com"
 # Message
+cd /home/pi/Documents/Scripts
 EMAILMESSAGE="message.txt"
 uptime  > $EMAILMESSAGE
 vcgencmd measure_temp >> $EMAILMESSAGE

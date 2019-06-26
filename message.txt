@@ -1,2 +1,2 @@
- 18:18:07 up  1:30,  3 users,  load average: 0.19, 0.39, 0.40
-temp=49.4'C
+ 18:01:00 up  4:01,  3 users,  load average: 0.06, 0.02, 0.00
+temp=38.1'C
