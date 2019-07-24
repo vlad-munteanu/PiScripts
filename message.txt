@@ -1,2 +1,2 @@
- 18:01:00 up  4:01,  3 users,  load average: 0.06, 0.02, 0.00
-temp=38.1'C
+ 22:00:01 up 19 days, 15:23,  1 user,  load average: 0.00, 0.00, 0.00
+temp=32.2'C
