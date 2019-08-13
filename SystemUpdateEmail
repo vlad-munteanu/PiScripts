@@ -15,6 +15,7 @@ echo "" >> $EMAILMESSAGE
 TEMPFILE="tempLog.txt"
 grep "$(date +"%b %d")" /var/log/auth.log > $TEMPFILE
 echo "There were $(grep -i -c "disconnect" tempLog.txt) failed SSH attempts so far today." >> $EMAILMESSAGE
+echo "There were $(grep -i -c "accepted" tempLog.txt) successful SSH attempts so far today." >> $EMAILMESSAGE
 echo ""  >> $EMAILMESSAGE
 cat tempLog.txt >> $EMAILMESSAGE
 # Sending email using /bin/mail
